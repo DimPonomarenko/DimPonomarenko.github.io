@@ -1,0 +1,234 @@
+@media (max-width: 1200px)
+    .menu
+        &_item
+            padding-right: 34px
+        &_link
+            font-size: 13px
+    .promo
+        &_header
+            font-size: 50px
+    .adventages_card
+        width: 475px
+        &_circle
+            margin-left: 21px
+            height: 108px
+    .mobile
+        &_item
+            width: 300px
+    .wraper
+        &_right
+            flex-direction: column
+            justify-content: space-around
+            align-items: end
+@media (max-width: 991px)
+    .menu
+        &_item
+            padding-right: 21px
+        &_link
+            font-size: 10px
+    .subheader
+        &_logo
+            img
+                width: 100%
+        &_official
+            font-size: 11px
+        &_phone
+            font-size: 18px
+        &_btn
+            width: 100%
+            height: 40px
+            margin-top: 21px
+    .promo
+        &_header
+            font-size: 40px
+        &_subheader
+            font-style: 30px
+    .adventages
+        &_card
+            flex-direction: column
+            align-items: center
+            width: 50%
+            h3
+                text-align: center
+                margin-top: 22px
+            &_descr
+                text-align: center
+    .possibilities
+        &_img
+            width: 100%
+    .wraper
+        &_left
+            padding: 8px
+        &_center
+            &_line
+                width: 100%
+            &_ober
+                display: flex
+            &_menu
+                flex-direction: column
+                margin-top: 20px
+                align-items: center
+                justify-content: start
+                width: 50%
+                a
+                    margin-bottom: 6px
+            &_descr
+                flex-direction: column
+                width: 50%
+                padding-left: 17px
+                align-items: center
+        &_right
+            padding: 14px 25px
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0,0,0, .8)
+        transition: 0.6s all
+        &_active
+            left: 0
+        &_item
+            padding-right: 0
+            border: 0
+            margin: 10px
+        &_link
+            font-size: 19px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: white
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible 
+        display: block
+    .subheader
+        &_phone
+            display: block
+            margin-top: 10px
+            font-size: 16px
+            font-weight: 400
+            text-transform: uppercase
+            text-align: center
+        &_btn
+            display: block
+            width: 200px
+            height: 40px
+            margin: 0 auto
+            margin-top: 10px
+    .promo
+        &_header
+            font-size: 40px
+            line-height: 45px
+    .require
+        &_title
+            text-align: center
+        &_block
+            width: 74%
+            margin: 0 auto
+    .wraper
+        &_left
+            width: 25%
+            flex-direction: column
+            justify-content: space-around
+        &_center
+            width: 50%
+        &_right
+            width: 25%
+            padding: 7px 12px
+@media (max-width: 575px)
+    .menu
+        width: 85%
+        &_link
+            font-size: 17px
+    .subheader
+        height: 60px
+        &_official
+            display: none
+        &_logo
+            margin-top: 17px
+        &_phone
+            font-size: 12px
+            font-weight: 400
+            text-transform: uppercase
+            margin-top: 8px
+        &_btn
+            width: 110px
+            height: 22px
+            font-size: 10px
+            margin-top: 9px
+    .promo
+        min-height: 400px
+        padding: 163px 0 35px 0
+        &_descr
+            display: none
+        &_header
+            font-size: 30px
+        &_subheader
+            font-size: 20px
+            margin-top: 33px
+            line-height: 30px
+        &_btn
+            width: 210px
+            height: 50px
+            margin-top: 72px
+    .advantages
+        padding: 22px 0 36px 0
+        &_header
+            font-size: 16px
+            margin-top: 15px
+            line-height: 16px
+            margin-bottom: 0
+    .adventages_card
+        margin-top: 26px
+        &_circle
+            margin-left: 0
+            width: 100px
+            height: 100px
+        &_text
+            width: 250px
+            margin-top: 27px
+            margin-left: 0
+    .mobile
+        &_item
+            width: 270px
+            height: 270px
+    .possibilities
+        &_down
+            display: none
+    .city
+        height: 450px
+        &_descr
+            a
+                font-size: 11px
+                
+
+        
+            
+
